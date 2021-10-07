@@ -1,6 +1,6 @@
 ## txt2html
 
-It convert any text file to an html docuemnt. It help for pentester to view output in browser.
+It convert any text file to an html document. It help for pentesters to view output in browser.
 
 ## dependencies
 
