@@ -1,0 +1,9 @@
+#!/bin/bash
+#author sekharlee
+#github repo https://github.com/sekharlee
+
+figlet "txt2html"
+echo "output is save as filename.html"
+echo -n "Enter the txt file:"
+read file
+echo "<html><body>">>$file.html;cat $file|while read li;do echo "<p>"$li;echo "</p>";done>>$file.html;echo "</body></html>" >>$file.html
