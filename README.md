@@ -8,7 +8,7 @@ apt-get install figlet
 
 ## Usage
 
-chmod +x txt2html.sh
+chmod +x txt2html.sh  
 ./txt2html.sh 
 Enter the filename 
 Output will save as filename.html
